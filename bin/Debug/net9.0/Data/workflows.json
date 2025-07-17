@@ -1,0 +1,32 @@
+{
+  "test2": {
+    "Id": "test2",
+    "States": [
+      {
+        "Id": "S1",
+        "Name": "Start",
+        "IsInitial": true,
+        "IsFinal": false,
+        "Enabled": true
+      },
+      {
+        "Id": "S2",
+        "Name": "End",
+        "IsInitial": false,
+        "IsFinal": true,
+        "Enabled": true
+      }
+    ],
+    "Actions": [
+      {
+        "Id": "go",
+        "Name": "Go to End",
+        "Enabled": true,
+        "FromStates": [
+          "S1"
+        ],
+        "ToState": "S2"
+      }
+    ]
+  }
+}
