@@ -19,7 +19,7 @@ Data is persisted in JSON files so definitions and instances survive restarts.
 
 ## Prerequisites
 
-* [.NET 9 SDK](https://dotnet.microsoft.com/download)
+* [.NET 8 SDK](https://dotnet.microsoft.com/download)
 * PowerShell (Windows) or any REST client (curl, Postman)
 
 ---
